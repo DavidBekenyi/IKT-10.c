@@ -12,8 +12,8 @@ ol li{
 }
 
 .hasab{
-  -webkit-column-count: 3; /* Chrome, Safari, Opera */
-  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
   column-count: 3;
   line-height: 120%;
 }
@@ -37,6 +37,7 @@ img{
   border: 1px solid #0F0F0F;
   box-shadow: 5px 5px 5px #7F7F7F;
   padding:15px;
+  width: 280px;
 }
 
 #vonalkazas{

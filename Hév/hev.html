@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="hev.css">
+    <script src="hev.js"></script>
     <title>Gödöllői HÉV</title>
+
+    <script></script>
 </head>
 <body>
     <h1>Történet</h1>
@@ -30,8 +33,9 @@
 
 <div id="urlap" >
     <h3>Menetidő számítás</h3>
-
-    <select>
+    
+<form>
+    <select id="a" >
         <option value="0">Gödöllő</option>
         <option value="2">Gödöllő, Palotakert</option>
         <option value="4">Gödöllő, Szabadság tér</option>
@@ -52,9 +56,9 @@
         <option value="43">Nagyicce</option>
         <option value="45">Rákosfalva</option>
         <option value="48">Örs vezér tere</option>
-       </select>
+    </select>
 
-       <select>
+    <select id="b" >
         <option value="0">Gödöllő</option>
         <option value="2">Gödöllő, Palotakert</option>
         <option value="4">Gödöllő, Szabadság tér</option>
@@ -75,12 +79,10 @@
         <option value="43">Nagyicce</option>
         <option value="45">Rákosfalva</option>
         <option value="48">Örs vezér tere</option>
-       </select>
-     
+    </select>
 
-    <script>
-
-    </script>
+        <button type="button" onclick="szamol" >Menetidő</button>    
+</form>
 </div>
 
 </body>

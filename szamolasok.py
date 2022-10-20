@@ -63,3 +63,31 @@ elif szam % 5 == 0:
 else:
     print("a szam paros vagy 1 et irtal kys")
 """
+
+"""
+szam1 = int(input("Add meg az elso szamot"))
+szam2 = int(input("Add meg az masodik szamot"))
+szam3 = int(input("Add meg az harmadik szamot"))
+
+if szam1 + szam2 == szam3:
+    print(szam1, "+", szam2, "=", szam3)
+
+elif szam2 + szam3 == szam1:
+    print(szam2, "+", szam3, "=", szam1)
+
+elif szam1 + szam3 == szam2:
+    print(szam1, "+", szam3, "=", szam2)
+
+else:
+    print("gagyi")
+"""
+"""
+szam1 = int(input("Add meg az elso szamot"))
+szam2 = int(input("Add meg az masodik szamot"))
+szam3 = int(input("Add meg az harmadik szamot"))
+
+if szam1 % 2 ==0 and szam2 % 2 ==0  and szam3 % 2 ==0:
+    print("minda a harom szam paros")
+else:
+    print("gagyi")
+"""

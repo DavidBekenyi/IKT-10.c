@@ -14,7 +14,7 @@ def kisebb():
 
 kisebb()
 """
-
+##########################################
 """
 list = []
 
@@ -26,18 +26,18 @@ list.append(szam1)
 list.append(szam2)
 list.append(szam3)
 
-def kisebb():
+def nagyobb():
     print(max(list))
 
-kisebb()
+nagyobb()
 """
-
+##########################################
 """
 x = int(input("Dolgozat pontszama: "))
 
 if x < 50:
     print("elegtelen")
-
+    
 elif 50 <= x <60 :
     print("elegsegges")
 
@@ -50,7 +50,7 @@ elif 70 <= x <85 :
 elif x>85 :
     print("jeles")
 """
-
+##########################################
 """
 szam = int(input("szam most"))
 
@@ -63,8 +63,7 @@ elif szam % 5 == 0:
 else:
     print("a szam paros vagy 1 et irtal kys")
 """
-
-#felesleges but jóban néz ki
+##########################################
 """
 list = []
 
@@ -91,8 +90,7 @@ elif nagyobb - kisebb == szam3:
 else:
     print("jo gagyi vagy")
 """
-
-# tul gagyi
+##########################################
 """
 szam1 = int(input("Add meg az elso szamot"))
 szam2 = int(input("Add meg az masodik szamot"))
@@ -107,13 +105,52 @@ elif szam1 + szam3 == szam2:
 else:
     print("gagyi")
 """
+##########################################
 """
-szam1 = int(input("Add meg az elso szamot"))
-szam2 = int(input("Add meg az masodik szamot"))
-szam3 = int(input("Add meg az harmadik szamot"))
+import abc
 
-if szam1 % 2 ==0 and szam2 % 2 ==0  and szam3 % 2 ==0:
-    print("minda a harom szam paros")
-else:
-    print("gagyi")
+list = []
+
+szo1 = str(input("szo "))
+szo2 = str(input("szo "))
+
+list.append(szo1)
+list.append(szo2)
+
+list.sort()
+
+print(list)
+"""
+##########################################
+"""
+szam = int(input("szamot "))
+x = range(3, szam)
+
+for szam in x:
+    if szam % 3 == 0:
+        print(szam)
+"""
+##########################################
+"""
+list = []
+hatar1 = int(input("szamot "))
+hatar2 = int(input("szamot "))
+x = range(hatar1, hatar2)
+
+list.append(hatar1)
+list.append(hatar2)
+
+szam = max(list)
+
+for szam in x:
+    if szam % 2 == 0:
+        print(szam)
+"""
+##########################################
+"""
+szam = int(input("aggyal szamot. de bazzeg ha kisseb lesz mint husz kette torom a fejed "))
+szam = szam - 1
+ujszam = szam * " "
+
+print(ujszam, "start")
 """
